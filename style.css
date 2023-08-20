@@ -6,13 +6,36 @@ ul{
     list-style-type: none;
 }
 .navbar{
-    width:100%;
+    width:100vw;
     height:50px;
     background-color: rgb(105, 36, 36);
     color:white;
     position: sticky;
     top:0px;
     border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.left{
+    width:700px;
+    margin-left: 250px;
+}
+.right{
+    display: flex;
+    justify-content: space-evenly;
+}
+.right a,.left a{
+    text-decoration: none;
+    color:white;
+}
+.left a:hover, .right a:hover{
+    color:black;
+}
+
+#book1:hover{
+    color:black;
 }
 li{
     float:left;
@@ -104,4 +127,5 @@ td,th{
 #name,#lname,#email,#password,#dob,#cpassword,#age{
     width:400px;
 }
+
 
